@@ -1,0 +1,330 @@
+{
+  "_Tasks-CSUVFzKV.js": {
+    "file": "assets/Tasks-CSUVFzKV.js",
+    "name": "Tasks",
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html"
+    ]
+  },
+  "_client-D35MNd4v.js": {
+    "file": "assets/client-D35MNd4v.js",
+    "name": "client"
+  },
+  "_hooks-gDgi_xSW.js": {
+    "file": "assets/hooks-gDgi_xSW.js",
+    "name": "hooks"
+  },
+  "_reliability-D32W3dFc.js": {
+    "file": "assets/reliability-D32W3dFc.js",
+    "name": "reliability",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_wakeLock-BfSERCqn.js": {
+    "file": "assets/wakeLock-BfSERCqn.js",
+    "name": "wakeLock",
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "_Tasks-CSUVFzKV.js"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-D3d4QBjf.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js"
+    ],
+    "dynamicImports": [
+      "src/data/ancient.en.json",
+      "src/data/ancient.fr.json",
+      "src/data/ancient.ru.json",
+      "src/data/anubis.en.json",
+      "src/data/anubis.fr.json",
+      "src/data/anubis.ru.json",
+      "src/data/cache.en.json",
+      "src/data/cache.fr.json",
+      "src/data/cache.ru.json",
+      "src/data/dust2.en.json",
+      "src/data/dust2.fr.json",
+      "src/data/dust2.ru.json",
+      "src/data/inferno.en.json",
+      "src/data/inferno.fr.json",
+      "src/data/inferno.ru.json",
+      "src/data/mirage.en.json",
+      "src/data/mirage.fr.json",
+      "src/data/mirage.ru.json",
+      "src/data/nuke.en.json",
+      "src/data/nuke.fr.json",
+      "src/data/nuke.ru.json",
+      "src/i18n/en.ts",
+      "src/i18n/fr.ts",
+      "src/i18n/ru.ts",
+      "src/live/client.ts",
+      "src/pages/Coach.tsx",
+      "src/pages/Strat.tsx",
+      "src/pages/Strats.tsx",
+      "src/pages/Chiffres.tsx",
+      "src/pages/Salle.tsx",
+      "src/pages/Cs2.tsx"
+    ],
+    "css": [
+      "assets/index-B5bAJTGb.css"
+    ]
+  },
+  "src/data/ancient.en.json": {
+    "file": "assets/ancient.en-D9bp_en0.js",
+    "name": "ancient.en",
+    "src": "src/data/ancient.en.json",
+    "isDynamicEntry": true
+  },
+  "src/data/ancient.fr.json": {
+    "file": "assets/ancient.fr-Gm1z4_VB.js",
+    "name": "ancient.fr",
+    "src": "src/data/ancient.fr.json",
+    "isDynamicEntry": true
+  },
+  "src/data/ancient.ru.json": {
+    "file": "assets/ancient.ru-CC61Pp_u.js",
+    "name": "ancient.ru",
+    "src": "src/data/ancient.ru.json",
+    "isDynamicEntry": true
+  },
+  "src/data/anubis.en.json": {
+    "file": "assets/anubis.en-s9i3YsUn.js",
+    "name": "anubis.en",
+    "src": "src/data/anubis.en.json",
+    "isDynamicEntry": true
+  },
+  "src/data/anubis.fr.json": {
+    "file": "assets/anubis.fr-DGZ-kcpY.js",
+    "name": "anubis.fr",
+    "src": "src/data/anubis.fr.json",
+    "isDynamicEntry": true
+  },
+  "src/data/anubis.ru.json": {
+    "file": "assets/anubis.ru-ClCSbuR_.js",
+    "name": "anubis.ru",
+    "src": "src/data/anubis.ru.json",
+    "isDynamicEntry": true
+  },
+  "src/data/cache.en.json": {
+    "file": "assets/cache.en-DTamveIP.js",
+    "name": "cache.en",
+    "src": "src/data/cache.en.json",
+    "isDynamicEntry": true
+  },
+  "src/data/cache.fr.json": {
+    "file": "assets/cache.fr-BJLQW9Ty.js",
+    "name": "cache.fr",
+    "src": "src/data/cache.fr.json",
+    "isDynamicEntry": true
+  },
+  "src/data/cache.ru.json": {
+    "file": "assets/cache.ru-CEp07Dpv.js",
+    "name": "cache.ru",
+    "src": "src/data/cache.ru.json",
+    "isDynamicEntry": true
+  },
+  "src/data/dust2.en.json": {
+    "file": "assets/dust2.en-CbGGo2tZ.js",
+    "name": "dust2.en",
+    "src": "src/data/dust2.en.json",
+    "isDynamicEntry": true
+  },
+  "src/data/dust2.fr.json": {
+    "file": "assets/dust2.fr-DpfLmk-3.js",
+    "name": "dust2.fr",
+    "src": "src/data/dust2.fr.json",
+    "isDynamicEntry": true
+  },
+  "src/data/dust2.ru.json": {
+    "file": "assets/dust2.ru-Bralg-jq.js",
+    "name": "dust2.ru",
+    "src": "src/data/dust2.ru.json",
+    "isDynamicEntry": true
+  },
+  "src/data/inferno.en.json": {
+    "file": "assets/inferno.en-CYNepvD3.js",
+    "name": "inferno.en",
+    "src": "src/data/inferno.en.json",
+    "isDynamicEntry": true
+  },
+  "src/data/inferno.fr.json": {
+    "file": "assets/inferno.fr-Cb38FSnK.js",
+    "name": "inferno.fr",
+    "src": "src/data/inferno.fr.json",
+    "isDynamicEntry": true
+  },
+  "src/data/inferno.ru.json": {
+    "file": "assets/inferno.ru-D1OdMwzU.js",
+    "name": "inferno.ru",
+    "src": "src/data/inferno.ru.json",
+    "isDynamicEntry": true
+  },
+  "src/data/mirage.en.json": {
+    "file": "assets/mirage.en-P7gWOBPG.js",
+    "name": "mirage.en",
+    "src": "src/data/mirage.en.json",
+    "isDynamicEntry": true
+  },
+  "src/data/mirage.fr.json": {
+    "file": "assets/mirage.fr-Dz-Gw7B3.js",
+    "name": "mirage.fr",
+    "src": "src/data/mirage.fr.json",
+    "isDynamicEntry": true
+  },
+  "src/data/mirage.ru.json": {
+    "file": "assets/mirage.ru-C0MSDrIh.js",
+    "name": "mirage.ru",
+    "src": "src/data/mirage.ru.json",
+    "isDynamicEntry": true
+  },
+  "src/data/nuke.en.json": {
+    "file": "assets/nuke.en-ida6vIpx.js",
+    "name": "nuke.en",
+    "src": "src/data/nuke.en.json",
+    "isDynamicEntry": true
+  },
+  "src/data/nuke.fr.json": {
+    "file": "assets/nuke.fr-BEzvB-ct.js",
+    "name": "nuke.fr",
+    "src": "src/data/nuke.fr.json",
+    "isDynamicEntry": true
+  },
+  "src/data/nuke.ru.json": {
+    "file": "assets/nuke.ru-Yv-grfYn.js",
+    "name": "nuke.ru",
+    "src": "src/data/nuke.ru.json",
+    "isDynamicEntry": true
+  },
+  "src/i18n/en.ts": {
+    "file": "assets/en-BZzHZdL8.js",
+    "name": "en",
+    "src": "src/i18n/en.ts",
+    "isDynamicEntry": true
+  },
+  "src/i18n/fr.ts": {
+    "file": "assets/fr-DbprlOCS.js",
+    "name": "fr",
+    "src": "src/i18n/fr.ts",
+    "isDynamicEntry": true
+  },
+  "src/i18n/ru.ts": {
+    "file": "assets/ru-BQjKy2q1.js",
+    "name": "ru",
+    "src": "src/i18n/ru.ts",
+    "isDynamicEntry": true
+  },
+  "src/live/LiveCard.tsx": {
+    "file": "assets/LiveCard-Cs4DtUi3.js",
+    "name": "LiveCard",
+    "src": "src/live/LiveCard.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "src/live/client.ts"
+    ]
+  },
+  "src/live/client.ts": {
+    "file": "assets/client-bKFakDM9.js",
+    "name": "client",
+    "src": "src/live/client.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "_client-D35MNd4v.js"
+    ]
+  },
+  "src/pages/Chiffres.tsx": {
+    "file": "assets/Chiffres-LWwn0QgO.js",
+    "name": "Chiffres",
+    "src": "src/pages/Chiffres.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "_reliability-D32W3dFc.js"
+    ]
+  },
+  "src/pages/Coach.tsx": {
+    "file": "assets/Coach-81tH7Fgu.js",
+    "name": "Coach",
+    "src": "src/pages/Coach.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "_reliability-D32W3dFc.js",
+      "_wakeLock-BfSERCqn.js",
+      "_Tasks-CSUVFzKV.js"
+    ],
+    "dynamicImports": [
+      "src/salle/IglRoom.tsx",
+      "src/live/LiveCard.tsx"
+    ]
+  },
+  "src/pages/Cs2.tsx": {
+    "file": "assets/Cs2-BvfqQkOF.js",
+    "name": "Cs2",
+    "src": "src/pages/Cs2.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "src/live/client.ts"
+    ]
+  },
+  "src/pages/Salle.tsx": {
+    "file": "assets/Salle-DlQyeu55.js",
+    "name": "Salle",
+    "src": "src/pages/Salle.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "_client-D35MNd4v.js",
+      "_wakeLock-BfSERCqn.js",
+      "_Tasks-CSUVFzKV.js"
+    ]
+  },
+  "src/pages/Strat.tsx": {
+    "file": "assets/Strat-Bgr1Hl-F.js",
+    "name": "Strat",
+    "src": "src/pages/Strat.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "_reliability-D32W3dFc.js",
+      "_Tasks-CSUVFzKV.js"
+    ]
+  },
+  "src/pages/Strats.tsx": {
+    "file": "assets/Strats-Bh32zwAR.js",
+    "name": "Strats",
+    "src": "src/pages/Strats.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "_reliability-D32W3dFc.js"
+    ]
+  },
+  "src/salle/IglRoom.tsx": {
+    "file": "assets/IglRoom-BhHSjgoG.js",
+    "name": "IglRoom",
+    "src": "src/salle/IglRoom.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_hooks-gDgi_xSW.js",
+      "index.html",
+      "_client-D35MNd4v.js"
+    ]
+  }
+}
